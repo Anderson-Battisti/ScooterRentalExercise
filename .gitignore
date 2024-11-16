@@ -1,0 +1,4 @@
+database/
+scooter_rental.sql
+database.ts
+.env

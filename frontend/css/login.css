@@ -1,0 +1,83 @@
+body
+{
+    background-color: lightblue;
+}
+
+.loginBlockContainer
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.loginBlock
+{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.mainText
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.loginInputs
+{
+    border-radius: 2px;
+    background-color: lightblue;
+}
+
+.form-control::placeholder
+{
+    font-family: 'Poppins';
+    color: black;
+    font-size: 14px;
+}
+
+.btnContainer
+{
+    padding-top: 30px;
+}
+
+.loginBtn 
+{
+    background-color: lightblue;
+    border-radius: 3px;
+    width: 300px;
+    font-family: 'Poppins';
+    border: none;
+    transition: transform 0.25s;
+}
+
+.loginBtn:hover
+{
+    transform: scale(1.05);
+    background-color: lightblue;
+}
+
+.loginBtn:active,
+.loginBtn:focus
+{
+    background-color: lightblue !important;
+    box-shadow: none !important;
+}
+
+.forgotPassword
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    font-size: 10px;
+    color: black;
+    font-weight: 200;
+}
