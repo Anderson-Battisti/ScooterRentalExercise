@@ -1,4 +1,4 @@
-let apiUrl = "http://localhost:3500";
+apiUrl = "http://localhost:3500";
 
 async function logIn(event)
 {
@@ -62,4 +62,20 @@ async function verifyAuthentication()
     {
         window.location = "login.html";
     }
+}
+
+function logout()
+{
+    localStorage.setItem("Authorization", "");
+}
+
+function userIsNotLogged(result)
+{
+    if (result.status === 401)
+    {
+        alert("Falha na autenticação, faça login e tente novamente!");
+        window.location = "login.html";
+        return true;
+    }
+    return false;
 }
