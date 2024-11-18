@@ -1,4 +1,5 @@
 database/
+node_modules/
 scooter_rental.sql
 database.ts
 .env

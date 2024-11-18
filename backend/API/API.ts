@@ -1,5 +1,6 @@
-import express, { Express } from "express";
-import cors from "cors";
+import { Express } from "express";
+import * as express from "express";
+import * as cors from "cors";
 import { loginRoute } from "../API/routes/loginRoute";
 import { scooterRoute } from "./routes/scooterRoute";
 
